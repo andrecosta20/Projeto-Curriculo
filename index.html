@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Curriculo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="ladoEsq">
+
+            <div class="perfil">
+                <div class="img_def">
+                    <img src="fotoPerfil.jpg">
+                </div>
+                <h4>André Costa Carvalho</h4>
+                <button class="btn" onclick="PDF();">Imprimir PDF</button>
+            </div>
+
+            <div class="itensEsq">
+                <h4 class="title">Contato:</h4>
+                <ul>
+                    <li>
+                        <span class="text">andre@meuemail.com</span>
+                    </li>
+                    
+                    <li>
+                        <span class="text">(11) 998345-7802 </span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="itensEsq">
+                <h4 class="title">Educação:</h4>
+                <ul>
+                    <li>
+                        <span class="text">Ensino medio e ensino fundamental completo</span>
+                    </li>
+
+                    <li>
+                        <span class="text">Colégio Objetivo / Colégio presbiteriano Mackenzie / Colégio Pentagono</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="itensEsq">
+                <h4 class="title">Endereço:</h4>
+                <ul>
+                    <li>
+                        <span class="text">Rua professor Mario Castro 192</span>
+                    </li>
+
+                    <li>
+                        <span class="text">Boa viagem</span>
+                    </li>
+
+                    <li>
+                        <span class="text">CEP: 51030-260 Recife - PE</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="itensEsq">
+                <h4 class="title">línguas:</h4>
+                <ul class="linguas">
+                    <li>
+                        <span class="text">Inglês</span>
+                    </li>
+                    <li>
+                        <span class="text">Português(br)</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="LadoDir">
+
+            <div class="itensDir">
+                <h3 class="title">Objetivo</h3>
+                <p>Procuro novos desafios profissionais e uma efetivação no mercado, tendo o desenvolvimento de minhas habilidades e a geração de resultados como objetivo, viabilizando um crescimento qualitativo e quantitativo para a empresa.</p>
+            </div>
+
+            <div class="itensDir">
+                <h3 class="title">Experiência</h3>
+                <div class="experiencia">
+                    <div class="time_line">
+                        <span class="time_point"></span>
+                        <span class="time_road"></span>
+                    </div>
+                    <div class="content">
+                        <div class="intervalo">
+                        </div>
+                        <div class="descricao">
+                            <h4>Desenvolvimento de jogos</h4>
+                            <p>Bom, antes de tudo eu gostaria de avisar que infelizmente eu ainda não entrei no mercado de trabalho nessa área, porém já sou bem acostumado na criação de jogos single player, atualmente estou desenvolvendo jogos pelo GameMaker Studio 2 utilizando o GML(Game Maker Language), que como o próprio nome já diz é uma linguagem própria do Game Maker. O meu objetivo principal é postar alguns dos meus projetos na steam ou em qualquer outra plataforma do gênero.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experiencia">
+                    <div class="time_line">
+                        <span class="time_point"></span>
+                        <span class="time_road"></span>
+                    </div>
+                    <div class="content">
+                        <div class="intervalo">
+                        </div>
+                        <div class="descricao">
+                            <h4>Desenvolvimento de websites </h4>
+                            <p>Acabei me interessando também por desenvolvimento de websites, cursei uma disciplina em minha faculdade atual (Universidade Católica de Pernambuco- Unicap) que mostrava um pouco desse mundo de Web Design o que chamou minha atenção, por mais que ainda não me sinta muito seguro em relação ao JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+               
+
+            </div>
+
+            <div class="itensDir">
+                <h3 class="title">Habilidades</h3>
+                <div class="habilidades">
+                    <h4>HTML</h4>
+                    <div class="porcent">
+                        <div style="width: 98%"> </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <h4>CSS</h4>
+                    <div class="porcent">
+                        <div style="width: 95%"> </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <h4>JavaScript</h4>
+                    <div class="porcent">
+                        <div style="width: 75%"> </div>
+                    </div>
+                </div>
+                <div class="habilidades">
+                    <h4>GML</h4>
+                    <div class="porcent">
+                        <div style="width: 80%"> </div>
+            </div>
+        </div>
+        
+
+
+
+    </div>
+
+    <script src="all.min.js"></script>
+
+    <script>
+        var btn = document.querySelector("button")
+        btn.onclick = () =>{
+            window.print();
+        }
+    </script>
+</body>
+
+</html>
